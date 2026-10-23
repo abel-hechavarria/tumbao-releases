@@ -24,7 +24,23 @@ TUMBAO is a maintainable starting point for client websites and independent proj
 
 ## Status
 
-TUMBAO is under active development. There is no stable production release available yet. Plugin and browser compatibility is being verified against specific versions; no blanket compatibility claim is made. Release packages and version-specific compatibility notes will be published here after the acceptance checks are complete.
+[TUMBAO 0.1.0 is available as a release candidate](https://github.com/abel-hechavarria/tumbao-releases/releases/tag/v0.1.0) for evaluation. There is no stable production release yet. The candidate is excluded from the normal WordPress stable-update channel.
+
+### Evaluate the candidate
+
+1. Download [the parent theme](https://github.com/abel-hechavarria/tumbao-releases/releases/download/v0.1.0/tumbao-0.1.0.zip) and install it through **Appearance → Themes → Add New → Upload Theme**.
+2. For a new project, install [the separate child-theme example](https://github.com/abel-hechavarria/tumbao-releases/releases/download/v0.1.0/tumbao-child-example-0.1.0.zip) and activate the child. Keep project branding, templates and custom code there.
+3. Configure optional effects under **Appearance → TUMBAO** and evaluate the result in a test environment before using it on a client site.
+
+The example child is an initial setup package; it must not replace an existing project child theme.
+
+### Compatibility and accessibility scope
+
+The theme baseline is **WordPress 6.8+ and PHP 8.2+**. Optional plugins have their own version requirements. Versioned checks include native WordPress, Elementor Free/Pro, WooCommerce and representative field, SEO and cache integrations.
+
+Browser checks cover Chrome 155/156, Edge 155/156, Firefox 157/158 and Chrome on Android. Chrome 156 uses Google's Chrome for Testing binary; Firefox checks use stock Mozilla releases. Safari on macOS and iOS has not been verified.
+
+Accessibility checks include keyboard navigation, accessible names, reduced motion, forced colors, rendered contrast and browser zoom up to 400%. These are scoped engineering checks, not a conformance certificate or a guarantee for every child-theme design. Some optional plugin versions emit PHP 8.5 deprecation notices independently of TUMBAO; assess plugin compatibility for each project.
 
 ## About
 
