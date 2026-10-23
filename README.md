@@ -24,9 +24,9 @@ TUMBAO is a maintainable starting point for client websites and independent proj
 
 ## Status
 
-[TUMBAO 0.1.0 is available as a release candidate](https://github.com/abel-hechavarria/tumbao-releases/releases/tag/v0.1.0) for evaluation. There is no stable production release yet. The candidate is excluded from the normal WordPress stable-update channel.
+[TUMBAO 0.1.0 is available as a stable release](https://github.com/abel-hechavarria/tumbao-releases/releases/tag/v0.1.0). Its normal WordPress update channel has been verified with the native installer: the parent updates while child files, settings and the administrator's automatic-update preference are preserved.
 
-### Evaluate the candidate
+### Installation
 
 1. Download [the parent theme](https://github.com/abel-hechavarria/tumbao-releases/releases/download/v0.1.0/tumbao-0.1.0.zip) and install it through **Appearance → Themes → Add New → Upload Theme**.
 2. For a new project, install [the separate child-theme example](https://github.com/abel-hechavarria/tumbao-releases/releases/download/v0.1.0/tumbao-child-example-0.1.0.zip) and activate the child. Keep project branding, templates and custom code there.
@@ -52,4 +52,6 @@ TUMBAO is an ongoing engineering project by **Abel Hechavarria**, a WordPress ar
 
 This public repository is reserved for TUMBAO release information and approved distribution assets. Development tooling, internal project documentation and client data are kept out of this repository.
 
-When a stable release is available, its GitHub Release will include the installable parent theme, a separate child-theme example, release notes and metadata for the WordPress updater. Published release assets will be versioned and immutable.
+Each stable GitHub Release includes the installable parent theme, a separate child-theme example, release notes and metadata for the WordPress updater. Published release assets are versioned and immutable. WordPress checks the public stable channel without requiring a GitHub token; automatic updates remain the administrator's choice.
+
+Version 0.1.0 was promoted from its verified candidate without changing any release asset. The release page reflects current status; the downloadable notes retain their original candidate-publication snapshot. Download the named theme ZIPs, rather than GitHub's generated source archives.
